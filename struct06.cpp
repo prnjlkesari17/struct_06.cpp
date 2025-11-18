@@ -5,6 +5,7 @@ struct emp;
 int id; 
 float salaray ;
 char name[20];
+  int age; 
 }
 int main()
 {
@@ -13,7 +14,9 @@ cout<<"enter the employee infor";
 cin>>e1.id;
 cin>>e1.salary;
 cin>>e1.name;
+  cin>>e1.age;
 cout<<"the name of employee"<<e1.name<<endl;
 cout<<"the salary of employee"<<el.salary; 
 cout<<"the id of employee"<<e1.id;
+  cout<<"the age of employee"<<e1.age;
 }
